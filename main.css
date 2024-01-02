@@ -1,0 +1,413 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 998px){
+html{ font-size: 55%;
+    .navbar .toggle_btn{
+    display:block;
+}
+.navbar .links{
+    display: none;
+}
+}
+
+
+}
+@media(max-width: 768px){
+    html{ font-size: 45%;
+        
+    }
+    }
+
+@media(max-width: 538px){
+        html{ font-size: 35%;
+    
+        }
+        }  
+        @media(max-width: 308px){
+            html{ font-size: 25%;
+                
+            }
+            }  
+
+.img-1{
+    position: absolute; 
+    top: 0%;
+    left: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img-1 img{
+    width: 100%;
+    height: 58rem;
+
+}
+.image-text-1
+{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+    
+}
+.image-text-2
+{
+    position: absolute;
+    top: -2.5%;
+    right: 84%;
+    color: white;
+    font-size: 3rem;
+  
+}
+.image-text-3
+{
+    position: absolute;
+    top: 62%;
+    right: 45%;
+    font-family:'arial';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  /* header */
+  header{
+    position: relative;
+    padding: 0 5rem;
+  }
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .links{
+    margin-top: -1%;
+    display: flex;
+    gap: 3rem;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.9rem;
+  }
+  .dff{
+    position: absolute;
+   top: 15%;
+   left: 86%;
+    font-size: 2.5rem;
+}
+ .navbar .toggle_btn {
+    position: fixed;
+    cursor: pointer;
+   left: 90%;
+   margin-left: 6%;
+   margin-top: -2%;
+   display: none;
+ }
+ .toggle_btn img{
+    width: 100%;
+    
+ }
+
+
+ .center-text1
+{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 100%;
+    margin-top: 3%;
+    margin-left: 35%;
+   
+}
+.text-1{
+    position: absolute;
+    font-size: 3rem;
+    font-family: 'garamond';
+    top: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+   text-align: center;
+}
+.action_btn{
+    position: absolute;
+    background-color: rgb(71, 71, 90);
+    color: #fff;
+    padding: 1.2rem 9rem;
+    font-size: 2.3rem;
+    top: 100%;
+    margin-top: 27%;
+    margin-left: 37%;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+ 
+}
+.action_btn:hover{
+    scale: 1.05;
+    color: fff;
+}
+.action_btn:active{
+    scale: 0.95;
+}
+
+
+/* campuses */
+
+.center-text2
+{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 100%;
+    margin-top: 40%;
+    margin-left: 38%;
+   
+}
+
+.card-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 90%;
+    
+}
+.card{
+    width: 259px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+    margin: 26px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+ 
+}
+
+.card-content{
+    padding: 10px;
+}
+.card-content h3{
+    font-size: 1.9rem;
+   margin-top: 2%;
+   text-align:start;
+}
+.card-content p{
+    color: #1b1a1a;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(71, 71, 90);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+   margin-left: 0%;
+   font-size: 1.6rem;
+}
+.btn:hover{
+    background-color: grey;
+}
+
+
+/* Academics */
+.center-text3
+{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 100%;
+    margin-top: 100%;
+    margin-left: 38%;
+   
+}
+
+.acd-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 70rem;
+    margin-top: 100%;
+  
+}
+.acd{
+    width: 100%;
+    height: 480px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+    margin: 20px;
+    transition: .80s;
+}
+.acd:hover{
+    transform: scale(0.9);
+  
+}
+
+.acd img{
+    width: 100%;
+    height: auto;
+}
+.acd-content{
+    padding: 12px;
+}
+.acd-content h5{
+    font-size: 1.8rem;
+   margin-top: 2%;
+   text-align:start;
+}
+.acd-content p{
+    color: #1b1a1a;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+.acd-content .btn-2{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(71, 71, 90);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+   margin-left: 0%;
+   font-size: 1.6rem;
+   
+}
+.btn-2:hover{
+    background-color: grey;
+}
+
+/* institutes */
+
+.row-1 {
+    position: relative;
+    display: flex;
+    /* margin-left: 3%;
+    margin-right: 2%; */
+    top: 260rem;
+    justify-content:space-between;
+  }
+
+  .column-1 {
+   display: flex;
+    padding: 10px;
+    transition: .40s;
+  }
+  .column-1:hover{
+    transform: scale(0.9);
+    
+  }
+  .dff-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 256rem;
+    padding: 25px;
+
+  }
+  .dff-2 img{
+    margin-left: -10%;
+
+  }
+
+  .center-text4
+{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 130rem;
+    margin-top: 100%;
+    margin-left: 35%;
+   
+}
+
+/* documentary */
+
+.center-text5
+{
+    position: absolute;
+    color: black;
+    font-size: 5rem;
+    top: 187rem;
+    margin-top: 100%;
+    margin-left: 35%;
+   
+}
+.vid{
+    margin-top: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.img-A{
+    position: absolute;
+    left: 0%;
+}
+
+.img-A img{
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: rgb(71, 71, 90);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px; 
+    text-align: center; 
+    margin-top: 52%;
+   height: 200px;
+    
+}
+.footer h1 {
+    font-size: 3.5rem;
+    margin: 0; 
+    margin-top: 2%;
+}
+
+.footer ul, .footer1 {
+    list-style: none;
+    display: flex;
+    
+    gap: 25px; 
+    font-size: 20px;
+    padding: 0; 
+    margin: 0; 
+}
+
+.footer p {
+    font-size: 1.5rem;
+    margin: 10px 0; 
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
